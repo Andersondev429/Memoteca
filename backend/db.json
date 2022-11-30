@@ -1,0 +1,22 @@
+{
+  "pensamentos": [
+    {
+      "conteudo": "\"Podemos julgar o coração de um homem pela forma como ele trata os animais.\"",
+      "autoria": "Immanuel Kant",
+      "modelo": "modelo1",
+      "id": 1
+    },
+    {
+      "conteudo": "\"A força não provém da capacidade física. Provém de uma vontade indomável.\"",
+      "autoria": "Mahatma Gandhi",
+      "modelo": "modelo2",
+      "id": 2
+    },
+    {
+      "conteudo": "\"A neve e as tempestades matam as flores, mas nada podem contra as sementes.\"",
+      "autoria": "Khalil Gibran",
+      "modelo": "modelo3",
+      "id": 3
+    }
+  ]
+}
