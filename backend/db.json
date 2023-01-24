@@ -4,25 +4,29 @@
       "conteudo": "\"Podemos julgar o coração de um homem pela forma como ele trata os animais.\"",
       "autoria": "Immanuel Kant",
       "modelo": "modelo1",
-      "id": 1
+      "id": 1,
+      "favorito": true
     },
     {
       "conteudo": "\"A força não provém da capacidade física. Provém de uma vontade indomável.\"",
       "autoria": "Mahatma Gandhi",
       "modelo": "modelo2",
-      "id": 2
+      "id": 2,
+      "favorito": false
     },
     {
       "conteudo": "\"A neve e as tempestades matam as flores, mas nada podem contra as sementes.\"",
       "autoria": "Khalil Gibran",
       "modelo": "modelo3",
-      "id": 3
+      "id": 3,
+      "favorito": false
     },
     {
       "conteudo": "Todo dia é dia de renovar nossos destinos.",
       "autoria": "danielly fagundes",
       "modelo": "modelo3",
-      "id": 4
+      "id": 4,
+      "favorito": false
     }
   ]
 }
