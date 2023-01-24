@@ -1,5 +1,9 @@
 <section class="container">
   <header class="header d-flex">
+    <div class="buscar-pensamentos">
+      <input type="search" class="filtro" placeholder="O que você procura?" autofocus [(ngModel)]="filtro" (keyup)="pesquisarPensamentos()">
+      <img src="../../../../assets/imagens/lupa.png" alt="lupa-azul">
+    </div>
     <h2 class="ff-inter">Meu Mural</h2>
     <button routerLink="/criarPensamento" class="botao">Adicionar pensamento</button>
   </header>
@@ -9,6 +13,9 @@
     </div>
   </div>
 </section>
+<app-botao-carregar-mais [haMaisPensamentos] = "haMaisPensamentos" (click)="carregarMaisPensamentos()">
+
+</app-botao-carregar-mais>
 <<ng-template #semPensamentos>
   <div class="ff-inter sem-pensamentos">
     <p>Ainda não há pensamentos cadastrados!</p>
