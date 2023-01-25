@@ -16,9 +16,9 @@ export class PensamentoService {
     const itensPorPagina= 6;
     let params = new HttpParams().set("_page", pagina).set("_limit", itensPorPagina)
 
-if(filtro.trim().length > 2){
-  params = params.set("q", filtro);
-}
+  if(filtro.trim().length > 2){
+    params = params.set("q", filtro);
+  }
 
     return this.http.get<Pensamento[]>(this.API, { params: params })
   }

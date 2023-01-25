@@ -5,7 +5,7 @@
       "autoria": "Immanuel Kant",
       "modelo": "modelo1",
       "id": 1,
-      "favorito": true
+      "favorito": false
     },
     {
       "conteudo": "\"A força não provém da capacidade física. Provém de uma vontade indomável.\"",
